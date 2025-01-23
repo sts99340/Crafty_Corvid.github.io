@@ -1,0 +1,128 @@
+body{
+    margin:0px;
+    background-color: #FFEBD8
+}
+/* Nav Styles */
+nav {
+    background-color: #89B9AD;
+    border-bottom: 10px solid #FFC5C5;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    float: left;
+    background-color: #AAD7D9;
+    color:black;
+    text-align: center;
+    box-shadow: #FFC5C5 5px 5px 5px;
+    padding: 14px 16px;
+    margin: 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: #92C7CF;
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #89B9AD;
+    border-top: 10px solid #FFC5C5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    float: left;
+    background-color: #AAD7D9;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+footer a:hover {
+    background-color: #92C7CF;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #89B9AD;
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*about*/
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 25px;
+    color: #89B9AD;
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.about img{
+    border-radius: 20%;
+    padding: 10px;
+    background-color: #AAD7D9;
+    width: 20%;
+}
+.about div{
+    padding: 20px;
+    background-color: #AAD7D9;
+    border-radius: 20%;
+    border-width: 3px;
+    color: black;
+    width: 35%;
+}
+.about div h2{
+    font-size: 25;
+}
+.about div p{
+    font-size: 18;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*products*/
+.products{
+    overflow-x: scroll hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.products .card{
+    display: inline-block;
+    width:25%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #AAD7D9;
+    border-radius: 20%;
+    text-align: center;
+}
+.products img{
+    width: 100%;
+    border-radius: 20%;
+}
+.products h3{
+    font-size: 25;
+    color: #FFEBD8;
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.products p{
+    font-size: 18;
+    font-family: 'Times New Roman', Times, serif;
+}
