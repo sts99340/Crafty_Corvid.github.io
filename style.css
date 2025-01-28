@@ -1,6 +1,7 @@
 body{
     margin:0px;
-    background-color: #FFEBD8
+    background-image: url("images/crafty_background.jpg");
+    background-size: cover;
 }
 /* Nav Styles */
 nav {
@@ -36,6 +37,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position:sticky;
+    bottom:0;
 }
 
 footer a {
@@ -44,7 +47,7 @@ footer a {
     color:black;
     text-align: center;
     padding: 14px 16px;
-    margin: 17px;
+    margin: 10px;
     text-decoration: none;
     font-size: 25px;
 }
@@ -52,6 +55,15 @@ footer a {
 footer a:hover {
     background-color: #92C7CF;
     color: black;
+}
+
+/*meat is the main body and it is getting squished for side images*/
+.meat{
+    padding: 20px;
+    background-color: #FFEBD8;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1{
@@ -102,6 +114,9 @@ h1{
     overflow-y: hidden;
     white-space: nowrap;
 }
+.products::-webkit-scrollbar {
+    display: none;
+}
 .products .card{
     display: inline-block;
     width:25%;
@@ -125,4 +140,33 @@ h1{
 .products p{
     font-size: 18;
     font-family: 'Times New Roman', Times, serif;
+}
+.products a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFEBD8;
+    text-decoration: none;
+    background-color: #89B9AD;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10%;
+}
+.products a:hover{
+    background-color: #FFEBD8;
+    color: #89B9AD;
+}
+
+/*contact*/
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    font-size: 25px;
+    color: #89B9AD;
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFEBD8;
 }
